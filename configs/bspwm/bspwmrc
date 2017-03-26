@@ -2,8 +2,6 @@
 
 compton &
 feh --bg-center /storage/Images/1088-leviathans-gate-david-demaret.jpe
-xset +fp ~/.fonts
-xset fp rehash
 source $(dirname $0)/config
 
 mpd &
