@@ -1,0 +1,9 @@
+open_with q
+mkdir Work_Projects
+mkdir Personal_Projects
+mkdir Wireless
+mkdir Music
+delete
+open_with 
+open_with ./
+

@@ -1,0 +1,77 @@
+URxvt.font: xft:Source Code Pro for Powerline-8:hinting=True;antialias:True,xft:WenQuanYi Bitmap Song-10:medium;antialias=False,xft:WenQuanYi Zen Hei-10:medium;antialias=True,xft:HanaMinA-10:medium;antialias:True,xft:HanaMinB-10:medium;antialias:True,xft:HanaMinPlus-10:medium;antialias:True
+!URxvt.boldFont: xft:Source Code Pro for Powerline-10:bold;hinting=True;antialias:True,xft:WenQuanYi Bitmap Song-10:bold;antialias=False,xft:WenQuanYi Zen Hei-10:bold;antialias=True,xft:HanaMinA-10:bold;antialias:True,xft:HanaMinB-10:bold;antialias:True,xft:HanaMinPlus-10:bold;antialias:True
+
+
+!-----------------------------------------------------------
+! General Color
+
+*background:    #23232d
+*foreground:    #7c7c7e
+*.cursorColor:  #2a2a20
+
+!black
+*color0: #24181c
+*color8: #49393f
+!red
+*color1: #551c2c
+*color9: #782e43
+!green
+*color2: #396248
+*color10: #578c6a
+!yellow
+*color3: #b3873d
+*color11: #cba360
+!blue
+*color4: #4b5f84
+*color12: #6b7993
+!magenta
+*color5:  #6a394f
+*color13: #87556b
+!cyan
+*color6: #384752
+*color14:  #4f6373
+!white
+*color7:  #b0a9ab
+*color15: #dfd9db
+
+!-------------------------------------------
+! rofi
+
+rofi.lines:                         6
+rofi.color-enabled:                 true
+rofi.separator-style:               none 
+rofi.width:                         40
+! rofi state:                          'bg'  'fg'  'bgalt'  'hlbg'  'hlfg'
+rofi.color-normal:                  argb:0016141a, #9e9f9a, argb:00101011, #2f2938, #f8f8f2
+rofi.color-urgent:                  argb:0016141a, #9e9f9a, argb:00101011, #2f2938, #f8f8f2
+rofi.color-active:                  argb:0016141a, #9e9f9a, argb:00101011, #2f2938, #a6e22a
+rofi.color-window:                  argb:ce16141a, #111111, #000000
+
+URxvt*scrollBar:		false
+!
+! effects
+!
+! enable transparency
+URxvt*transparent:          true
+! percentage of shading
+URxvt*shading:             30
+! shading color
+!URxvt*tintColor:            #1C1C1C
+! percentage of fading on unfocused
+!falsefading:              0
+! fading color
+!falsefadeColor:           color
+! use font glyphs 
+!URxvt*skipBuiltinGlyphs:    true
+! number of lines between row
+URxvt*lineSpace:            0
+! space between letters
+URxvt*letterSpace:          -1
+! cursor underline  
+URxvt*cursorUnderline:      false
+! cursor blinking 
+URxvt*cursorBlink:          false
+! blank the pointer on keypress or timeout
+URxvt*pointerBlank:         false
+! reverve bf and fg colors
+URxvt*reverseVideo: false
